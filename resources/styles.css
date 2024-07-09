@@ -1,0 +1,125 @@
+/* Global Rules */
+
+html {
+    box-sizing: border-box;
+    font-family: helvetica;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+}
+body {
+    margin: 0;
+}
+h1,h2,h3,h4,h5 {
+    font-family: Inter;
+    font-weight: bold;
+}
+
+/* Nav Bar */
+header {
+    display: block;
+    background-image: url(https://i.pinimg.com/736x/09/a2/7c/09a27cbe69a90b6fbc22544fe6b4d3fd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-container {
+    display: flex;
+    color: white;
+    width: 60%;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    
+}
+.nav-items {
+    display: inline-flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.nav-items a {
+    padding: 0 4rem;
+    font-weight: 700;
+}
+.nasa-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50rem;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.nasa-container h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 8rem;
+    letter-spacing: 1rem;
+}
+
+/* Second Body Section */
+
+.discoveries-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    padding: 4rem 0;
+}
+.discoveries {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.discovery-content {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 33%;
+    height: auto;
+    margin: 1rem;    
+}
+.discovery-content p {
+    font-weight: 700;
+}
+.discovery-content img {
+    width: 100%;
+    border: 1px solid white;
+    margin-top: 1rem;   
+}
+#crop {
+    height: 22rem;
+}
+.discovery-title {
+    display: flex;
+    padding: 1rem 0 3rem 0;
+    justify-content: center;
+    font-size: larger;
+    letter-spacing: .3rem;
+    width: 100%;
+    text-align: center;
+}
+
+/* Mission Statement */
+
+.mission-container {
+    background-color: black;
+    color: white;
+    padding: 1rem 0 1rem 0;
+    border-top: 2px solid white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+}
+.statement  {
+    font-size: larger;
+    letter-spacing: .3rem;
+}
